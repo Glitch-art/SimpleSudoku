@@ -62,6 +62,7 @@ dependencies {
     implementation("androidx.wear.compose:compose-foundation:1.0.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
     implementation("androidx.activity:activity-compose:1.5.1")
+    implementation("androidx.wear.tiles:tiles-material:1.1.0")
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
@@ -80,4 +81,6 @@ dependencies {
     implementation("androidx.wear:wear-phone-interactions:1.0.1")
     // Use to implement support for interactions between the Wearables and Phones
     implementation("androidx.wear:wear-remote-interactions:1.0.0")
+
+    implementation("androidx.navigation:navigation-compose:2.4.0-alpha10")
 }
